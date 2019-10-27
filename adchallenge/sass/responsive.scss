@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1200px) {
+	.view-content {
+		display: grid;
+		grid-gap: 20px;
+		grid-template-columns: 50% 50%;
+	}
+	.region.region-header {
+		display: grid;
+		grid-template-columns: 30% 70%;
+		grid-gap: 20px;
+		grid-template-areas: "logo navigation";
+		width: 95% !important;
+		display: grid;
+		grid-template-columns: 100%;
+		grid-gap: 20px;
+		grid-template-areas: "logo" "navigation";
+		width: 95% !important;
+		nav {
+			li {
+				padding: 5px !important;
+				padding: 5px !important;
+			}
+		}
+		ul.menu {
+			text-align: center;
+			float: initial;
+		}
+	}
+	.site-logo {
+		img {
+			margin-top: 20px !important;
+			float: initial;
+		}
+	}
+	main {
+		width: 90% !important;
+		width: 90% !important;
+	}
+	footer {
+		padding: 15px 0 10px 0;
+		padding: 15px 0 10px 0;
+	}
+	.region.region-footer {
+		p {
+			float: initial;
+			line-height: 40px;
+			float: initial;
+			line-height: 40px;
+		}
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		nav {
+			float: initial;
+			float: initial;
+		}
+	}
+	.page-node-type-article {
+		main {
+			display: grid;
+			grid-gap: 0px;
+			grid-template-columns: 100%;
+			gird-template-areas: "articlecontent";
+		}
+	}
+	.sticky {
+		margin-left: -2.5%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.view-content {
+		display: grid;
+		grid-gap: 20px;
+		grid-template-columns: 100%;
+	}
+	.region.region-header {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-gap: 20px;
+		grid-template-areas: "logo" "navigation";
+		width: 95% !important;
+		nav {
+			li {
+				padding: 5px !important;
+			}
+		}
+		ul.menu {
+			float: initial;
+		}
+	}
+	.page-node-type-article {
+		main {
+			display: grid;
+			grid-gap: 0px;
+			grid-template-columns: 100%;
+			gird-template-areas: "articlecontent";
+		}
+	}
+	.site-logo {
+		img {
+			float: initial;
+		}
+	}
+	main {
+		width: 90% !important;
+	}
+	footer {
+		padding: 15px 0 10px 0;
+	}
+	.region.region-footer {
+		p {
+			float: initial;
+			line-height: 40px;
+		}
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		nav {
+			float: initial;
+		}
+	}
+	.sticky {
+		margin-left: -2.5%;
+	}
+}
