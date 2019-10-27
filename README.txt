@@ -1,3 +1,15 @@
+--------------------------------
+UPDATES
+--------------------------------
+- 27.10.2019 Style updates created for template
+	- Provided new scss files in folder sass (main file: main.scss)
+	- New css file style.css provided from scss files to update the initial layout and style of template (css/style.css)
+	- New function added to js/scripts.js for sticky header
+
+--------------------------------
+ORIGINAL DESCRIPTION
+--------------------------------
+
 Themes allow you to change the look and feel of your Drupal site. You can use
 themes contributed by others or create your own.
 
