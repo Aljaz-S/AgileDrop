@@ -1,7 +1,7 @@
 --------------------------------
 UPDATES
 --------------------------------
-**27.10.2019** Style updates created for template
+27.10.2019 Style updates created for template
 	- Provided new scss files in folder sass (main file: main.scss)
 	- New css file style.css provided from scss files to update the initial layout and style of template (css/style.css)
 	- New function added to js/scripts.js for sticky header
